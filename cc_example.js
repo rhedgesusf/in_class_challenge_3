@@ -24,7 +24,7 @@ let inventory = {
     },
     removeFirstItem(){
         this.items.shift();
-    }
+    },
 };
 
 inventory.addItem("Monitor", 5);
@@ -36,3 +36,4 @@ inventory.removeLatestItem();
 console.log(JSON.stringify(inventory.items));
 inventory.removeFirstItem();
 console.log(JSON.stringify(inventory.items));
+
