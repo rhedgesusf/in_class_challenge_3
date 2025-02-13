@@ -49,7 +49,7 @@ function findEmployee(employees, name) {
     return employees.find(employee => employee.name === name);
 }
 
-console.log(findOrder(employees, "Bob"));
+console.log(findEmployee(employees, "Bob"));
 
 // Task 8
 
